@@ -30,7 +30,7 @@ const CreatePost = () => {
             >
                 <div className="flex flex-col gap-5">
                     <FormField
-                        LabelName="Your name"
+                        labelName="Your name"
                         type="text"
                         name="name"
                         placeholder="John Doe"
@@ -39,7 +39,7 @@ const CreatePost = () => {
                     />
 
                     <FormField
-                        LabelName="Prompt"
+                        labelName="Prompt"
                         type="text"
                         name="prompt"
                         placeholder="panda mad scientist mixing sparkling chemicals, digital art"
